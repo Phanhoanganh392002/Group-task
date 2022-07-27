@@ -204,11 +204,11 @@ section{
     text-align: center;
 }
 
-.home {
+.home{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("../images/milk-being-poured-into-iced-coffee-dark-table_118631-2003.jpg") no-repeat;
+    background:url(../images/milk-being-poured-into-iced-coffee-dark-table_118631-2003.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -440,15 +440,6 @@ section{
     padding-left: 2rem;
 }
 
-.contact .row form .inputBox input{
-    width: 100%;
-    padding:2rem;
-    font-size: 1.7rem;
-    color:#fff;
-    text-transform: none;
-    background:none;
-}
-
 .blogs .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -564,39 +555,12 @@ section{
 
 
 
-@media (max-width:768px) {
 
-    #menu-btn {
-        display: inline-block;
-    }
 
-    .header .navbar {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        background: #fff;
-        width: 30rem;
-        height: calc(100vh - 9.5rem);
-    }
 
-    .header .navbar.active {
-        right: 0;
-    }
 
-    .header .navbar a {
-        color: var(--black);
-        display: block;
-        margin: 1.5rem;
-        padding: .5rem;
-        font-size: 2rem;
-    }
 
-    .header .search-form {
-        width: 90%;
-        right: 2rem;
-    }
-}
-
+/* media queries  */
 @media (max-width:991px){
 
     html{
@@ -613,9 +577,57 @@ section{
 
 }
 
-@media (max-width:450px) {
+@media (max-width:768px){
 
-    html {
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
         font-size: 50%;
     }
+
 }
