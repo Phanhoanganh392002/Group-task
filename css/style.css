@@ -78,7 +78,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding:1.5rem 7%;
-    border-bottom: var(--border);
+    border-bottom: .1rem solid rgba(255,255,255,.3);
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
@@ -271,7 +271,7 @@ section{
 .menu .box-container .box{
     padding:5rem;
     text-align: center;
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
 }
 
 .menu .box-container .box img{
@@ -312,7 +312,7 @@ section{
 
 .products .box-container .box{
     text-align: center;
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
     padding: 2rem;
 }
 
@@ -321,7 +321,7 @@ section{
     width: 5rem;
     line-height: 5rem;
     font-size: 2rem;
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
     color:#fff;
     margin:.3rem;
 }
@@ -370,7 +370,7 @@ section{
 }
 
 .review .box-container .box{
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
     text-align: center;
     padding:3rem 2rem;
 }
@@ -431,13 +431,22 @@ section{
     margin-top: 2rem;
     margin-bottom: 2rem;
     background:var(--bg);
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
 }
 
 .contact .row form .inputBox span{
     color:#fff;
     font-size: 2rem;
     padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
 }
 
 .blogs .box-container{
@@ -447,7 +456,7 @@ section{
 }
 
 .blogs .box-container .box{
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
 }
 
 .blogs .box-container .box .image{
@@ -509,7 +518,7 @@ section{
     line-height: 5rem;
     font-size: 2rem;
     color:#fff;
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
     margin:.3rem;
     border-radius: 50%;
 }
@@ -529,7 +538,7 @@ section{
 .footer .links a{
     padding:.7rem 2rem;
     color:#fff;
-    border:var(--border);
+    border:.1rem solid rgba(255,255,255,.3);
     font-size: 2rem;
 }
 
